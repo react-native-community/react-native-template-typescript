@@ -4,12 +4,22 @@ const path = require('path');
 const packageJson = require('../package.json');
 const devDependencies = require('../devDependencies.json');
 
-if (!packageJson.devDependencies) {
-    packageJson.devDependencies = {};
-}
+const isInScriptsDirectory = fs.existsSync(path.join(process.cwd(), 'install.js'));
+const pathPrefix = isInScriptsDirectory ? '../' : '';
 
-packageJson.devDependencies = Object.assign(packageJson.devDependencies, devDependencies);
+const deleteFile = (fileName) => fs.unlinkSync(path.join(process.cwd(), `${pathPrefix}${fileName}`));
+const writeFile = (fileName, data) => fs.writeFileSync(path.join(process.cwd(), `${pathPrefix}${fileName}`), data);
 
-const data = JSON.stringify(packageJson, null, 2);
+(() => {
+    deleteFile('App.js');
+})();
 
-fs.writeFileSync(path.join(process.cwd(), 'package.json'), data);
+(() => {
+    if (!packageJson.devDependencies) {
+        packageJson.devDependencies = {};
+    }
+
+    packageJson.devDependencies = Object.assign(packageJson.devDependencies, devDependencies);
+    const data = JSON.stringify(packageJson, null, 2);
+    writeFile('package.json', data);
+})();
