@@ -16,11 +16,6 @@ const writeFile = (fileName, data) => fs.writeFileSync(path.join(process.cwd(), 
 })();
 
 (() => {
-    if (!packageJson.devDependencies) {
-        packageJson.devDependencies = {};
-    }
-    packageJson.devDependencies = Object.assign(packageJson.devDependencies, devDependencies);
-
     if (!packageJson.scripts) {
         packageJson.scripts = {};
     }
@@ -28,8 +23,7 @@ const writeFile = (fileName, data) => fs.writeFileSync(path.join(process.cwd(), 
 
     const data = JSON.stringify(packageJson, null, 2);
     writeFile('package.json', data);
-    execSync('npm i');
-    deleteFile('devDependencies.json');
+    execSync(`npm i ${devDependencies.join(' ')} --save-dev --save-exact`);
 })();
 
 console.log('✅ Setup completed! You can now delete the scripts folder.')
