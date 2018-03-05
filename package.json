@@ -13,7 +13,8 @@
         "react",
         "native",
         "template",
-        "typescript"
+        "typescript",
+        "boilerplate"
     ],
     "author": "Emin Khateeb <emin@emin.ch>",
     "license": "MIT",
