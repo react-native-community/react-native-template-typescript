@@ -24,6 +24,7 @@ const writeFile = (fileName, data) => fs.writeFileSync(path.join(process.cwd(), 
     const data = JSON.stringify(packageJson, null, 2);
     writeFile('package.json', data);
     execSync(`npm i ${devDependencies.join(' ')} --save-dev --save-exact`);
+    deleteFile('devDependencies.json')
 })();
 
 console.log('✅ Setup completed! You can now delete the scripts folder.')
