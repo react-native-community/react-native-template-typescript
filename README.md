@@ -23,3 +23,8 @@ The React Native CLI currently supports automatic installation only of productio
 ### What about Jest?
 
 Currently this template doesn't cover Jest. For more info on the current status check the [open issue](https://github.com/emin93/react-native-template-typescript/issues/1).
+
+### How will this template affect the React Native CLI workflow?
+
+The React Native CLI will do everything just as without a template and afterwards overwrite the files with the ones from
+this template. This means you don't have to worry about incompatibility issues with later React Native upgrades.
