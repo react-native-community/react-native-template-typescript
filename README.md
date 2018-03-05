@@ -28,3 +28,7 @@ Currently this template does not cover Jest. For more info on the current status
 
 The React Native CLI will do everything just as without a template and afterwards overwrite the files with the ones from
 this template. This means you don't have to worry about incompatibility issues with later React Native upgrades.
+
+## :hearts: Contributing
+
+Contributions are of course very welcome. Please try to stay consistent with the other files I've created.
