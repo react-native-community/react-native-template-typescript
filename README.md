@@ -20,9 +20,9 @@ node scripts/install.sh
 
 The React Native CLI currently supports automatic installation only of production dependencies. Since TypeScript type definitions are dev dependencies, the post install script is being used to install those.
 
-### What about Jest?
+### What about Jest?
 
-Currently this template doesn't cover Jest. For more info on the current status check the [open issue](https://github.com/emin93/react-native-template-typescript/issues/1).
+Currently this template does not cover Jest. For more info on the current status check the [open issue](https://github.com/emin93/react-native-template-typescript/issues/1).
 
 ### How will this template affect the React Native CLI workflow?
 
