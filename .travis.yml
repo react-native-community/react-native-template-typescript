@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+  - "node"
+install: true
+deploy:
+  on:
+    tags: true
+  provider: npm
+  email: "emin@emin.ch"
+  api_key: "${NPM_TOKEN}"
+  skip_cleanup: true

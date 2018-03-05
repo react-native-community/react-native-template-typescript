@@ -2,6 +2,9 @@
     "name": "react-native-template-typescript",
     "version": "0.0.1",
     "description": "Clean and minimalist React Native template for a quick start with TypeScript.",
+    "scripts": {
+        "prepublishOnly": "npm --no-git-tag-version version from-git"
+    },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/emin93/react-native-template-typescript.git"
