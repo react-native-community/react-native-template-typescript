@@ -11,7 +11,7 @@ way to start your React Native project with TypeScript. Of course you can always
 ```
 react-native init MyApp --template typescript
 cd MyApp
-node scripts/setup.sh
+node setup.js
 ```
 
 ## :question: FAQ
