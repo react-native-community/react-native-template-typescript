@@ -40,7 +40,7 @@ this template. This means you don't have to worry about incompatibility issues w
 
 ## :hearts: Contributing
 
-Contributions are of course very welcome. Please try to stay consistent with the other files I've created.
+Contributions are very welcome. Please try to stay consistent with the other files I've created.
 
 ### Donations
 
