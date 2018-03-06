@@ -19,6 +19,7 @@ node setup.js
 - [TypeScript](https://github.com/Microsoft/TypeScript)
 - [React Native TypeScript Transformer](https://github.com/ds300/react-native-typescript-transformer)
 - [Type definitions for React & React Native](https://github.com/DefinitelyTyped/DefinitelyTyped)
+- [TS Jest](https://github.com/kulshekhar/ts-jest)
 - [TSLint](https://github.com/palantir/tslint)
 - [TSLint React](https://github.com/palantir/tslint-react)
 
@@ -27,10 +28,6 @@ This template always uses the latest versions of the dependencies at the time wh
 ### Why the setup script?
 
 The React Native CLI supports automatic installation of production dependencies only. Since TypeScript and the other dependencies are dev dependencies, the setup script is being used to install those. It also takes care of obsolete files like the `.flowconfig` and the `setup.js` itself after the setup.
-
-### What about Jest?
-
-This template does not cover Jest yet. For more info on the current status check the [open issue](https://github.com/emin93/react-native-template-typescript/issues/1).
 
 ### How will this template affect the React Native CLI workflow?
 

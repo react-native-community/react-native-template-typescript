@@ -1,9 +1,9 @@
 import * as React from "react";
 import "react-native";
-import renderer from "react-test-renderer";
+import { create } from "react-test-renderer";
 
 import App from "../src/App";
 
 it("renders correctly", () => {
-    const tree = renderer.create(<App exampleProp="helloWorld" />);
+    const tree = create(<App exampleProp="helloWorld" />);
 });
