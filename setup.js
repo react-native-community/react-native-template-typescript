@@ -17,6 +17,8 @@ execSync(`npm i ${devDependencies.join(' ')} --save-dev --save-exact`);
 deleteFile('App.js');
 deleteFile('.flowconfig');
 deleteFile('devDependencies.json');
+deleteFile('README.md');
+deleteFile('LICENSE');
 deleteFile('setup.js');
 
 console.log('✅ Setup completed! You can now start with: npm start');
