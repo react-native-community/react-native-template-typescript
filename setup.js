@@ -13,9 +13,12 @@ packageJson.scripts.lint = 'tslint -c tslint.json "src/**/*.{ts,tsx}"';
 writeFile('package.json', JSON.stringify(packageJson, null, 2));
 
 execSync(`npm i ${devDependencies.join(' ')} --save-dev --save-exact`);
+execSync(`npm uninstall babel-jest babel-preset-react-native --save`);
 
 deleteFile('App.js');
+deleteFile('__tests__/App.js');
 deleteFile('.flowconfig');
+deleteFile('.babelrc');
 deleteFile('devDependencies.json');
 deleteFile('README.md');
 deleteFile('LICENSE');
