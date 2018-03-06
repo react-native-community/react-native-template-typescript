@@ -1,6 +1,8 @@
 [
+    "typescript",
+    "tslint",
+    "tslint-react",
     "@types/react",
     "@types/react-native",
-    "typescript",
     "npm-run-all"
 ]

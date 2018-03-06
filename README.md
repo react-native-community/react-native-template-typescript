@@ -18,11 +18,20 @@ node setup.js
 
 ### Why the post install script?
 
-The React Native CLI currently supports automatic installation only of production dependencies. Since TypeScript type definitions are dev dependencies, the post install script is being used to install those.
+The React Native CLI supports automatic installation of production dependencies only. Since TypeScript type definitions are dev dependencies, the post install script is being used mainly to install those.
+
+### What is included in this template?
+
+- [TypeScript](https://github.com/Microsoft/TypeScript)
+- [TypeScript type definitions for React & React Native](https://github.com/DefinitelyTyped/DefinitelyTyped)
+- [TSLint](https://github.com/palantir/tslint)
+- [TSLint React](https://github.com/palantir/tslint-react)
+
+This template always uses the latest versions of the dependencies at the time when the `react-native init` command is being executed. This means you don't have to worry about old versions.
 
 ### What about Jest?
 
-Currently this template does not cover Jest. For more info on the current status check the [open issue](https://github.com/emin93/react-native-template-typescript/issues/1).
+This template does not cover Jest yet. For more info on the current status check the [open issue](https://github.com/emin93/react-native-template-typescript/issues/1).
 
 ### How will this template affect the React Native CLI workflow?
 
@@ -32,3 +41,7 @@ this template. This means you don't have to worry about incompatibility issues w
 ## :hearts: Contributing
 
 Contributions are of course very welcome. Please try to stay consistent with the other files I've created.
+
+### Donations
+
+I created this project in my spare time because I enjoy coding. Of course you can support me by [buying me a coffee](https://www.paypal.me/emin93) if you wish. :coffee: :relieved:

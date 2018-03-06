@@ -11,6 +11,7 @@ const writeFile = (fileName, data) => fs.writeFileSync(path.join(process.cwd(), 
 packageJson.scripts.rn = packageJson.scripts.start;
 packageJson.scripts.ts = 'node_modules/.bin/tsc -w';
 packageJson.scripts.start = 'npm-run-all -p -r rn ts';
+packageJson.scripts.lint = 'tslint -c tslint.json "src/**/*.{ts,tsx}"';
 writeFile('package.json', JSON.stringify(packageJson, null, 2));
 
 execSync(`npm i ${devDependencies.join(' ')} --save-dev --save-exact`);
