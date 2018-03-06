@@ -1,5 +1,6 @@
 [
     "@types/react",
     "@types/react-native",
-    "typescript"
+    "typescript",
+    "npm-run-all"
 ]
