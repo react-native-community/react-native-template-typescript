@@ -4,5 +4,5 @@
     "tslint-react",
     "@types/react",
     "@types/react-native",
-    "npm-run-all"
+    "react-native-typescript-transformer"
 ]

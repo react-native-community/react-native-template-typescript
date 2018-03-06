@@ -8,9 +8,7 @@ const devDependencies = require('./devDependencies.json');
 const deleteFile = (fileName) => fs.unlinkSync(path.join(process.cwd(), fileName));
 const writeFile = (fileName, data) => fs.writeFileSync(path.join(process.cwd(), fileName), data);
 
-packageJson.scripts.rn = packageJson.scripts.start;
-packageJson.scripts.ts = 'node_modules/.bin/tsc -w';
-packageJson.scripts.start = 'npm-run-all -p -r rn ts';
+packageJson.scripts.start = `${packageJson.scripts.start} --config ${path.join(process.cwd(), 'rn-cli.config.js')}`;
 packageJson.scripts.lint = 'tslint -c tslint.json "src/**/*.{ts,tsx}"';
 writeFile('package.json', JSON.stringify(packageJson, null, 2));
 
