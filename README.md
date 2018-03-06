@@ -18,7 +18,7 @@ node setup.js
 
 - [TypeScript](https://github.com/Microsoft/TypeScript)
 - [TypeScript type definitions for React & React Native](https://github.com/DefinitelyTyped/DefinitelyTyped)
-- [react-native-typescript-transformer](https://github.com/ds300/react-native-typescript-transformer)
+- [React Native Typescript Transformer](https://github.com/ds300/react-native-typescript-transformer)
 - [TSLint](https://github.com/palantir/tslint)
 - [TSLint React](https://github.com/palantir/tslint-react)
 

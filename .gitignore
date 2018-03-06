@@ -34,10 +34,6 @@ local.properties
 #
 .vscode/
 
-# TypeScript
-#
-lib/
-
 # node.js
 #
 node_modules/
