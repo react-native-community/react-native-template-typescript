@@ -17,8 +17,8 @@ node setup.js
 ### What is included in this template?
 
 - [TypeScript](https://github.com/Microsoft/TypeScript)
-- [TypeScript type definitions for React & React Native](https://github.com/DefinitelyTyped/DefinitelyTyped)
-- [React Native Typescript Transformer](https://github.com/ds300/react-native-typescript-transformer)
+- [React Native TypeScript Transformer](https://github.com/ds300/react-native-typescript-transformer)
+- [Type definitions for React & React Native](https://github.com/DefinitelyTyped/DefinitelyTyped)
 - [TSLint](https://github.com/palantir/tslint)
 - [TSLint React](https://github.com/palantir/tslint-react)
 
