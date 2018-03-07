@@ -10,10 +10,11 @@
         "url": "git+https://github.com/emin93/react-native-template-typescript.git"
     },
     "keywords": [
-        "react",
-        "native",
-        "template",
+        "react-native",
         "typescript",
+        "tslint",
+        "jest",
+        "template",
         "boilerplate"
     ],
     "author": "Emin Khateeb <emin@emin.ch>",
