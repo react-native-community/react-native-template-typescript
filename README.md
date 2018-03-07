@@ -17,13 +17,15 @@ node setup.js
 ### What is included in this template?
 
 - [TypeScript](https://github.com/Microsoft/TypeScript)
-- [React Native TypeScript Transformer](https://github.com/ds300/react-native-typescript-transformer)
+- [React Native TypeScript transformer](https://github.com/ds300/react-native-typescript-transformer)
 - [Type definitions for React & React Native](https://github.com/DefinitelyTyped/DefinitelyTyped)
 - [TS Jest](https://github.com/kulshekhar/ts-jest)
 - [TSLint](https://github.com/palantir/tslint)
 - [TSLint React](https://github.com/palantir/tslint-react)
 
 This template always uses the latest versions of the dependencies at the time when the setup script (`node setup.js`) is being executed. This means you don't have to worry about old versions.
+
+Lots of :heart: and credits to the owners and maintainers of those packages.
 
 ### Why the setup script?
 
