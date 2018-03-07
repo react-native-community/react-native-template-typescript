@@ -9,6 +9,8 @@ const devDependencies = require('./devDependencies.json');
 const deleteFile = (fileName) => fs.unlinkSync(path.join(process.cwd(), fileName));
 const writeFile = (fileName, data) => fs.writeFileSync(path.join(process.cwd(), fileName), data);
 
+console.log('🔄 Please wait...');
+
 packageJson.scripts.start = `${packageJson.scripts.start} --config ../../../../rn-cli.config.js`;
 packageJson.scripts.lint = 'tslint -c tslint.json "src/**/*.{ts,tsx}"';
 packageJson.jest = Object.assign(packageJson.jest, jestJson);
