@@ -1,0 +1,19 @@
+{
+    "name": "react-native-setup-typescript",
+    "version": "1.0.1",
+    "description": "Do NOT use this as a standalone package. See: https://www.npmjs.com/package/react-native-template-typescript",
+    "main": "index.js",
+    "scripts": {
+        "install": "node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/emin93/react-native-template-typescript.git"
+    },
+    "author": "Emin Khateeb <emin@emin.ch>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/emin93/react-native-template-typescript/issues"
+    },
+    "homepage": "https://github.com/emin93/react-native-template-typescript#readme"
+}
