@@ -17,6 +17,7 @@ writeFile('package.json', JSON.stringify(packageJson, null, 2));
 
 execSync(`npm i ${devDependencies.join(' ')} --save-dev --save-exact`);
 
+deleteFile('index.js');
 deleteFile('App.js');
 deleteFile('__tests__/App.js');
 deleteFile('.flowconfig');
