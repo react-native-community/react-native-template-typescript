@@ -1,7 +1,5 @@
 [
     "typescript",
-    "tslint",
-    "tslint-react",
     "react-native-typescript-transformer",
     "ts-jest",
     "@types/react",
