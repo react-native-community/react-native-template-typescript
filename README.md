@@ -6,10 +6,11 @@ This template can be used with the React Native CLI, which means it doesn't mess
 
 ## :star: Features
 
--   Seamless integration with the React Native CLI
--   Always latest dependencies
--   React Native TypeScript transformer directly integrated into the packager! (No separate process for TSC)
--   Unit testing in TypeScript with Jest
+-   Seamless integration with the React Native CLI! :sparkles:
+-   Consistent with the default React Native template (no additional stuff)
+-   React Native TypeScript transformer directly integrated into the packager (no separate process for `tsc`)
+-   Unit testing in TypeScript with TS Jest
+-   Always latest dependencies :raised_hands:
 
 ## :arrow_forward: Quick Start
 
