@@ -2,6 +2,8 @@
 
 Clean and minimalist React Native template for a quick start with TypeScript.
 
+[![Header](https://cdn-images-1.medium.com/max/800/1*E9RnPOATuhjuNrlFkv5oSg.jpeg)](https://medium.com/@emin93/react-native-typescript-b965059109d3)
+
 This template can be used with the React Native CLI, which means it doesn't mess with the platform specific files. Instead of including a lot of dependencies, my aim when creating this template was to provide a very easy and minimalist way to start your React Native project with TypeScript. Of course you can always include other dependencies as you need them.
 
 ## :star: Features
