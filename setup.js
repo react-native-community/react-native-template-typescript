@@ -8,6 +8,14 @@ const devDependencies = require('./devDependencies.json');
 
 const deleteFile = (fileName) => fs.unlinkSync(path.join(process.cwd(), fileName));
 const writeFile = (fileName, data) => fs.writeFileSync(path.join(process.cwd(), fileName), data);
+const isYarnAvailable = () => {
+  try {
+    execSync('yarnpkg --version', { stdio: 'ignore' });
+    return true;
+  } catch (e) {
+    return false;
+  }
+}
 
 console.log('🔄 Please wait...');
 
@@ -15,7 +23,11 @@ packageJson.scripts.start = `${packageJson.scripts.start} --config ../../../../r
 packageJson.jest = Object.assign(packageJson.jest, jestJson);
 writeFile('package.json', JSON.stringify(packageJson, null, 2));
 
-execSync(`npm i ${devDependencies.join(' ')} --save-dev --save-exact`);
+if (isYarnAvailable) {
+  execSync(`yarn add ${devDependencies.join(' ')} --dev --exact`);
+} else {
+  execSync(`npm i ${devDependencies.join(' ')} --save-dev --save-exact`);
+}
 
 deleteFile('App.js');
 deleteFile('__tests__/App.js');
@@ -26,4 +38,4 @@ deleteFile('README.md');
 deleteFile('LICENSE');
 deleteFile('setup.js');
 
-console.log('✅ Setup completed! You can now start with: npm start');
+console.log(`✅ Setup completed! You can now start with: ${isYarnAvailable ? "yarn" : "npm"} start`);
