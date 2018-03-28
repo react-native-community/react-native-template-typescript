@@ -23,9 +23,12 @@ packageJson.scripts.start = `${packageJson.scripts.start} --config ../../../../r
 packageJson.jest = Object.assign(packageJson.jest, jestJson);
 writeFile('package.json', JSON.stringify(packageJson, null, 2));
 
+const logInstallingWith = pkg => console.log(`📦 Installing dependencies with ${pkg}...`);
 if (isYarnAvailable) {
+  logInstallingWith("yarn");
   execSync(`yarn add ${devDependencies.join(' ')} --dev --exact`);
 } else {
+  logInstallingWith("npm");
   execSync(`npm i ${devDependencies.join(' ')} --save-dev --save-exact`);
 }
 
