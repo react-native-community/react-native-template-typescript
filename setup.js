@@ -15,7 +15,7 @@ const isYarnAvailable = () => {
     } catch (exc) {
         return false;
     }
-}
+};
 
 const packageManager = isYarnAvailable() ? 'yarn' : 'npm';
 const execOptions = { stdio: 'inherit' };
@@ -43,8 +43,6 @@ deleteFile('devDependencies.json');
 deleteFile('jest.json');
 deleteFile('README.md');
 deleteFile('LICENSE');
-deleteFile('CODE_OF_CONDUCT.md');
-deleteFile('CONTRIBUTING.md');
 deleteFile('setup.js');
 
 console.log(`\n✅ Setup completed! You can now start with: ${packageManager} start\n`);
