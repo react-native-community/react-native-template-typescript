@@ -16,6 +16,11 @@ const isYarnAvailable = () => {
     return false;
   }
 }
+const currPackager = isYarnAvailable ? "yarn" : "npm";
+const logInstallingWith = pkg => console.log(`\n📦 Installing dependencies with ${pkg}...\n`);
+const execOptions = {
+  stdio: 'inherit'
+}
 
 console.log('\n🔄 Please wait...\n');
 
@@ -23,16 +28,11 @@ packageJson.scripts.start = `${packageJson.scripts.start} --config ../../../../r
 packageJson.jest = Object.assign(packageJson.jest, jestJson);
 writeFile('package.json', JSON.stringify(packageJson, null, 2));
 
-const logInstallingWith = pkg => console.log(`\n📦 Installing dependencies with ${pkg}...\n`);
-const execOptions = {
-  stdio: 'inherit'
-}
+logInstallingWith(currPackager);
 
 if (isYarnAvailable) {
-  logInstallingWith("yarn");
   execSync(`yarn add ${devDependencies.join(' ')} --dev --exact`, execOptions);
 } else {
-  logInstallingWith("npm");
   execSync(`npm i ${devDependencies.join(' ')} --save-dev --save-exact`, execOptions);
 }
 
@@ -45,4 +45,4 @@ deleteFile('README.md');
 deleteFile('LICENSE');
 deleteFile('setup.js');
 
-console.log(`\n✅ Setup completed! You can now start with: ${isYarnAvailable ? "yarn" : "npm"} start\n`);
+console.log(`\n✅ Setup completed! You can now start with: ${currPackager} start\n`);
