@@ -17,19 +17,23 @@ const isYarnAvailable = () => {
   }
 }
 
-console.log('🔄 Please wait...');
+console.log('\n🔄 Please wait...\n');
 
 packageJson.scripts.start = `${packageJson.scripts.start} --config ../../../../rn-cli.config.js`;
 packageJson.jest = Object.assign(packageJson.jest, jestJson);
 writeFile('package.json', JSON.stringify(packageJson, null, 2));
 
-const logInstallingWith = pkg => console.log(`📦 Installing dependencies with ${pkg}...`);
+const logInstallingWith = pkg => console.log(`\n📦 Installing dependencies with ${pkg}...\n`);
+const execOptions = {
+  stdio: 'inherit'
+}
+
 if (isYarnAvailable) {
   logInstallingWith("yarn");
-  execSync(`yarn add ${devDependencies.join(' ')} --dev --exact`);
+  execSync(`yarn add ${devDependencies.join(' ')} --dev --exact`, execOptions);
 } else {
   logInstallingWith("npm");
-  execSync(`npm i ${devDependencies.join(' ')} --save-dev --save-exact`);
+  execSync(`npm i ${devDependencies.join(' ')} --save-dev --save-exact`, execOptions);
 }
 
 deleteFile('App.js');
@@ -41,4 +45,4 @@ deleteFile('README.md');
 deleteFile('LICENSE');
 deleteFile('setup.js');
 
-console.log(`✅ Setup completed! You can now start with: ${isYarnAvailable ? "yarn" : "npm"} start`);
+console.log(`\n✅ Setup completed! You can now start with: ${isYarnAvailable ? "yarn" : "npm"} start\n`);
