@@ -20,13 +20,13 @@ const isYarnAvailable = () => {
 const packageManager = isYarnAvailable() ? 'yarn' : 'npm';
 const execOptions = { stdio: 'inherit' };
 
-console.log('\n🔄 Please wait...\n');
+console.log('🔄 Please wait...\n');
 
 packageJson.scripts.start = `${packageJson.scripts.start} --config ../../../../rn-cli.config.js`;
 packageJson.jest = Object.assign(packageJson.jest, jestConfig);
 writeFile('package.json', JSON.stringify(packageJson, null, 2));
 
-console.log(`\n📦 Installing dependencies with ${packageManager}...\n`);
+console.log(`📦 Installing dependencies with ${packageManager}...\n`);
 
 switch (packageManager) {
     case 'yarn':
@@ -43,6 +43,8 @@ deleteFile('devDependencies.json');
 deleteFile('jest.json');
 deleteFile('README.md');
 deleteFile('LICENSE');
+deleteFile('CODE_OF_CONDUCT.md');
+deleteFile('CONTRIBUTING.md');
 deleteFile('setup.js');
 
 console.log(`\n✅ Setup completed! You can now start with: ${packageManager} start\n`);
