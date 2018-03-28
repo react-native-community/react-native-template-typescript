@@ -3,35 +3,37 @@ const path = require('path');
 const { execSync } = require('child_process');
 
 const packageJson = require('./package.json');
-const jestJson = require('./jest.json');
+const jestConfig = require('./jest.json');
 const devDependencies = require('./devDependencies.json');
 
 const deleteFile = (fileName) => fs.unlinkSync(path.join(process.cwd(), fileName));
 const writeFile = (fileName, data) => fs.writeFileSync(path.join(process.cwd(), fileName), data);
 const isYarnAvailable = () => {
     try {
-        execSync('yarnpkg --version', { stdio: 'ignore' });
+        execSync('yarn --version', { stdio: 'ignore' });
         return true;
-    } catch (e) {
+    } catch (exc) {
         return false;
     }
 }
 
-const packager = isYarnAvailable() ? 'yarn' : 'npm';
+const packageManager = isYarnAvailable() ? 'yarn' : 'npm';
 const execOptions = { stdio: 'inherit' };
 
 console.log('\n🔄 Please wait...\n');
 
 packageJson.scripts.start = `${packageJson.scripts.start} --config ../../../../rn-cli.config.js`;
-packageJson.jest = Object.assign(packageJson.jest, jestJson);
+packageJson.jest = Object.assign(packageJson.jest, jestConfig);
 writeFile('package.json', JSON.stringify(packageJson, null, 2));
 
-console.log(`\n📦 Installing dependencies with ${packager}...\n`);
+console.log(`\n📦 Installing dependencies with ${packageManager}...\n`);
 
-if (packager === 'yarn') {
-    execSync(`yarn add ${devDependencies.join(' ')} --dev --exact`, execOptions);
-} else {
-    execSync(`npm i ${devDependencies.join(' ')} --save-dev --save-exact`, execOptions);
+switch (packageManager) {
+    case 'yarn':
+        execSync(`yarn add ${devDependencies.join(' ')} --dev --exact`, execOptions);
+        break;
+    default:
+        execSync(`npm i ${devDependencies.join(' ')} --save-dev --save-exact`, execOptions);
 }
 
 deleteFile('App.js');
@@ -43,4 +45,4 @@ deleteFile('README.md');
 deleteFile('LICENSE');
 deleteFile('setup.js');
 
-console.log(`\n✅ Setup completed! You can now start with: ${packager} start\n`);
+console.log(`\n✅ Setup completed! You can now start with: ${packageManager} start\n`);
