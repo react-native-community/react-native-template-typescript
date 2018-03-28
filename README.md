@@ -49,7 +49,7 @@ The React Native CLI will do everything just as without a template and afterward
 
 ## :computer: Contributing
 
-Contributions are very welcome. Please try to stay consistent with the other files I've created.
+Contributions are very welcome. Please check out the [contributing document](https://github.com/emin93/react-native-template-typescript/blob/master/CONTRIBUTING.md).
 
 ### Donations
 
