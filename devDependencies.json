@@ -1,9 +1,9 @@
 [
-    "typescript",
-    "react-native-typescript-transformer",
-    "ts-jest",
+    "@types/jest",
     "@types/react",
     "@types/react-native",
-    "@types/jest",
-    "@types/react-test-renderer"
+    "@types/react-test-renderer",
+    "react-native-typescript-transformer",
+    "ts-jest",
+    "typescript"
 ]
