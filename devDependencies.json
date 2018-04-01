@@ -4,5 +4,6 @@
     "ts-jest",
     "@types/react",
     "@types/react-native",
-    "@types/jest"
+    "@types/jest",
+    "@types/react-test-renderer"
 ]
