@@ -6,7 +6,7 @@
  * https://github.com/emin93/react-native-template-typescript
  */
 
-import * as React from 'react';
+import React from 'react';
 import {
   Platform,
   StyleSheet,
