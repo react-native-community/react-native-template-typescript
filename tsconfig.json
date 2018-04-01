@@ -4,7 +4,9 @@
         "jsx": "react",
         "noEmit": true,
         "moduleResolution": "node",
-        "noImplicitAny": true
+        "noImplicitAny": true,
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true
     },
     "exclude": [
         "node_modules"
