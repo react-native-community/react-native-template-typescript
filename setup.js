@@ -6,7 +6,15 @@ const packageJson = require('./package.json');
 const jestConfig = require('./jest.json');
 const devDependencies = require('./devDependencies.json');
 
-const deleteFile = (fileName) => fs.unlinkSync(path.join(process.cwd(), fileName));
+const deleteFile = (fileName) => {
+    const filePath = path.join(process.cwd(), fileName);
+
+    if (!fs.existsSync(filePath)) {
+        return;
+    }
+
+    fs.unlinkSync(filePath);
+};
 const writeFile = (fileName, data) => fs.writeFileSync(path.join(process.cwd(), fileName), data);
 const isYarnAvailable = () => {
     try {
