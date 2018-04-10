@@ -43,6 +43,10 @@ The React Native CLI supports automatic installation of production dependencies 
 
 The React Native CLI will do everything just as without a template and afterwards overwrite the files with the ones from this template. This means you don't have to worry about incompatibility issues with later React Native upgrades.
 
+### Does debugging work too?
+
+Yes it does. Some users reported that they got an error about relative paths when they tried to debug inside Visual Studio Code. In this case check out the [fix by Mo Mac](https://medium.com/@nocnoc/great-work-f0b5ef365ca6).
+
 ## :globe_with_meridians: Links
 
 -   ["Using React Native with TypeScript just became simple" on Medium](https://medium.com/@emin93/react-native-typescript-b965059109d3)
