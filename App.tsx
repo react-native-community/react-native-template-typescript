@@ -6,7 +6,7 @@
  * https://github.com/emin93/react-native-template-typescript
  */
 
-import React from 'react';
+import React, { Component } from 'react';
 import {
   Platform,
   StyleSheet,
@@ -22,7 +22,7 @@ const instructions = Platform.select({
 });
 
 interface Props {};
-export default class App extends React.Component<Props> {
+export default class App extends Component<Props> {
   render() {
     return (
       <View style={styles.container}>
