@@ -1,25 +1,29 @@
 {
-    "name": "react-native-template-typescript",
-    "version": "0.0.1",
-    "description": "Clean and minimalist React Native template for a quick start with TypeScript.",
-    "scripts": {
-        "prepublishOnly": "npm --no-git-tag-version version from-git"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/emin93/react-native-template-typescript.git"
-    },
-    "keywords": [
-        "react-native",
-        "typescript",
-        "jest",
-        "template",
-        "boilerplate"
-    ],
-    "author": "Emin Khateeb <emin@emin.ch>",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/emin93/react-native-template-typescript/issues"
-    },
-    "homepage": "https://github.com/emin93/react-native-template-typescript#readme"
+  "name": "react-native-template-typescript",
+  "version": "0.0.1",
+  "description": "Clean and minimalist React Native template for a quick start with TypeScript.",
+  "scripts": {
+    "test": "standard setup.js",
+    "prepublishOnly": "npm --no-git-tag-version version from-git"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emin93/react-native-template-typescript.git"
+  },
+  "keywords": [
+    "react-native",
+    "typescript",
+    "jest",
+    "template",
+    "boilerplate"
+  ],
+  "author": "Emin Khateeb <emin@emin.ch>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emin93/react-native-template-typescript/issues"
+  },
+  "homepage": "https://github.com/emin93/react-native-template-typescript#readme",
+  "devDependencies": {
+    "standard": "11.0.1"
+  }
 }
