@@ -1,7 +1,9 @@
 language: node_js
 node_js:
   - "node"
-install: true
+cache:
+  directories:
+    - "node_modules"
 deploy:
   on:
     tags: true
