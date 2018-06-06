@@ -30,7 +30,6 @@ const execOptions = {stdio: 'inherit'}
 
 console.log('🔄 Please wait...\n')
 
-packageJson.scripts.start = `${packageJson.scripts.start} --config ../../../../rn-cli.config.js`
 packageJson.jest = Object.assign(packageJson.jest, jestConfig)
 writeFile('package.json', JSON.stringify(packageJson, null, 2))
 
