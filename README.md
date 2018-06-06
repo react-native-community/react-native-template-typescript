@@ -45,7 +45,27 @@ The React Native CLI will do everything just as without a template and afterward
 
 ### Does debugging work too?
 
-Yes it does. Some users reported that they got an error about relative paths when they tried to debug inside Visual Studio Code. In this case check out the [fix by Mo Mac](https://medium.com/@nocnoc/great-work-f0b5ef365ca6).
+Yes it does, but you need to enable the `sourceMap` option in the `tsconfig.json`.
+
+Make sure it looks something like this:
+```json
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "jsx": "react",
+    "module": "es6",
+    "moduleResolution": "node",
+    "noEmit": true,
+    "noImplicitAny": true,
+    "target": "es6",
+    "sourceMap": true
+  },
+  "exclude": ["node_modules"]
+}
+```
+
+This is not enabled by default as it is unknown if it has any negative effects on the transpilation time. For more information make sure to check out the [post by Nicolas Hémonic](https://medium.com/@NicolasHemonic/hi-mo-mac-d18286202602).
 
 ## :globe_with_meridians: Links
 
