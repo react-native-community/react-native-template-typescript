@@ -1,14 +1,13 @@
 {
   "compilerOptions": {
-    "target": "es2015",
-    "jsx": "react",
-    "noEmit": true,
-    "moduleResolution": "node",
-    "noImplicitAny": true,
     "allowSyntheticDefaultImports": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "jsx": "react",
+    "module": "es6",
+    "moduleResolution": "node",
+    "noEmit": true,
+    "noImplicitAny": true,
+    "target": "es6"
   },
-  "exclude": [
-    "node_modules"
-  ]
+  "exclude": ["node_modules"]
 }
