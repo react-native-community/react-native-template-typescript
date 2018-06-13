@@ -48,6 +48,7 @@ Yes it does.
 ## :globe_with_meridians: Links
 
 -   ["Using React Native with TypeScript just became simple" on Medium](https://medium.com/@emin93/react-native-typescript-b965059109d3)
+-   ["24 tips for React Native you probably want to know" on Albert Gao's blog](http://albertgao.xyz/2018/05/30/24-tips-for-react-native-you-probably-want-to-know/#9-For-Typescript)
 
 ## :computer: Contributing
 
