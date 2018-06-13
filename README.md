@@ -43,6 +43,8 @@ It deletes obsolete files like the `.flowconfig` and the `setup.js` itself after
 
 Yes it does.
 
+[![Demonstration of working breakpoints in Visual Studio Code](https://cdn-images-1.medium.com/max/1600/1*ZXfzgq1xKz1B3chYy9xE7w.png)](https://medium.com/@emin93/react-native-typescript-b965059109d3)
+
 ## :globe_with_meridians: Links
 
 -   ["Using React Native with TypeScript just became simple" on Medium](https://medium.com/@emin93/react-native-typescript-b965059109d3)
