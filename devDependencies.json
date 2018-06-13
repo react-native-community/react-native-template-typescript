@@ -1,9 +1,9 @@
-[
-  "@types/jest",
-  "@types/react",
-  "@types/react-native",
-  "@types/react-test-renderer",
-  "react-native-typescript-transformer",
-  "ts-jest",
-  "typescript"
-]
+{
+  "@types/jest": "latest",
+  "@types/react-native": "latest",
+  "@types/react-test-renderer": "latest",
+  "@types/react": "latest",
+  "react-native-typescript-transformer": "latest",
+  "ts-jest": "latest",
+  "typescript": "latest"
+}
