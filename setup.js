@@ -15,7 +15,7 @@ const deleteFile = (fileName) => {
 }
 const writeFile = (fileName, data) => fs.writeFileSync(path.join(process.cwd(), fileName), data)
 
-console.log('🔄 Please wait...\n')
+console.log('🔄 Setting up...')
 
 packageJson.jest = Object.assign(packageJson.jest, jestConfig)
 writeFile('package.json', JSON.stringify(packageJson, null, 2))
@@ -29,4 +29,4 @@ deleteFile('README.md')
 deleteFile('LICENSE')
 deleteFile('setup.js')
 
-console.log(`\n✅ Setup completed! You can now start with: ${packageManager} start\n`)
+console.log(`✅ Setup completed!`)
