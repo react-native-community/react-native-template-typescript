@@ -31,45 +31,24 @@ node setup.js
 -   [Type definitions for React & React Native](https://github.com/DefinitelyTyped/DefinitelyTyped)
 -   [TS Jest](https://github.com/kulshekhar/ts-jest)
 
-This template always uses the latest versions of the dependencies at the time when the setup script (`node setup.js`) is being executed. This means you don't have to worry about old versions.
+This template always uses the latest versions of the dependencies at the time when the `react-native init` command is being executed. This means you don't have to worry about old versions.
 
 Lots of :heart: and credits to the owners and maintainers of those packages.
 
 ### Why the setup script?
 
-The React Native CLI supports automatic installation of production dependencies only. Since TypeScript and the other dependencies are dev dependencies, the setup script is being used to install those. It also takes care of obsolete files like the `.flowconfig` and the `setup.js` itself after the setup.
+It deletes obsolete files like the `.flowconfig` and the `setup.js` itself after the setup.
 
-### How will this template affect the React Native CLI workflow?
+### Does debugging work?
 
-The React Native CLI will do everything just as without a template and afterwards overwrite the files with the ones from this template. This means you don't have to worry about incompatibility issues with later React Native upgrades.
+Yes it does.
 
-### Does debugging work too?
-
-Yes it does, but you need to enable the `sourceMap` option in the `tsconfig.json`.
-
-Make sure it looks something like this:
-```json
-{
-  "compilerOptions": {
-    "allowSyntheticDefaultImports": true,
-    "esModuleInterop": true,
-    "jsx": "react",
-    "module": "es6",
-    "moduleResolution": "node",
-    "noEmit": true,
-    "noImplicitAny": true,
-    "target": "es6",
-    "sourceMap": true
-  },
-  "exclude": ["node_modules"]
-}
-```
-
-This is not enabled by default as it is unknown if it has any negative effects on the transpilation time. For more information make sure to check out the [post by Nicolas Hémonic](https://medium.com/@NicolasHemonic/hi-mo-mac-d18286202602).
+[![Demonstration of working breakpoints in Visual Studio Code](https://cdn-images-1.medium.com/max/1600/1*ZXfzgq1xKz1B3chYy9xE7w.png)](https://medium.com/@emin93/react-native-typescript-b965059109d3)
 
 ## :globe_with_meridians: Links
 
 -   ["Using React Native with TypeScript just became simple" on Medium](https://medium.com/@emin93/react-native-typescript-b965059109d3)
+-   ["24 tips for React Native you probably want to know" on Albert Gao's blog](http://albertgao.xyz/2018/05/30/24-tips-for-react-native-you-probably-want-to-know/#9-For-Typescript)
 
 ## :computer: Contributing
 
