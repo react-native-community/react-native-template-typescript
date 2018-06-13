@@ -1,4 +1,4 @@
-# :space_invader: React Native Template TypeScript · [![npm](https://img.shields.io/npm/v/react-native-template-typescript.svg)](https://www.npmjs.com/package/react-native-template-typescript) [![Travis](https://img.shields.io/travis/emin93/react-native-template-typescript.svg)](https://travis-ci.org/emin93/react-native-template-typescript)
+# :space_invader: React Native Template TypeScript · [![Build Status](https://travis-ci.org/emin93/react-native-template-typescript.svg?branch=master)](https://travis-ci.org/emin93/react-native-template-typescript)
 
 Clean and minimalist React Native template for a quick start with TypeScript.
 
