@@ -6,7 +6,7 @@ Clean and minimalist React Native template for a quick start with TypeScript.
 
 ## :star: Features
 
-- Seamless integration with the React Native CLI! :sparkles:
+- Seamlessly integrated into the React Native CLI! :sparkles:
 - Consistent with the default React Native template
 - React Native TypeScript Transformer included
 - Unit testing in TypeScript with TS Jest
