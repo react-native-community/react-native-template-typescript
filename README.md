@@ -14,10 +14,8 @@ Clean and minimalist React Native template for a quick start with TypeScript.
 
 ## :arrow_forward: Quick Start
 
-```
-react-native init MyApp --template typescript
-cd MyApp
-node setup.js
+```bash
+react-native init MyApp --template typescript && node MyApp/setup.js
 ```
 
 ## :question: FAQ
