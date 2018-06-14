@@ -13,6 +13,7 @@ packageJson.jest = Object.assign(packageJson.jest, jestConfig)
 writeFile('package.json', JSON.stringify(packageJson, null, 2))
 
 deleteFile('App.js')
+deleteFile('devDependencies.json')
 deleteFile('.flowconfig')
 deleteFile('jest.json')
 deleteFile('README.md')
