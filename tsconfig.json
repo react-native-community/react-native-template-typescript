@@ -2,7 +2,8 @@
   "compilerOptions": {
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
-    "jsx": "react-native",
+    "jsx": "react",
+    "lib": ["es6"],
     "module": "es6",
     "moduleResolution": "node",
     "noEmit": true,
