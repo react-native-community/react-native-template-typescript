@@ -14,7 +14,6 @@ writeFile('package.json', JSON.stringify(packageJson, null, 2))
 
 deleteFile('.flowconfig')
 deleteFile('App.js')
-deleteFile('devDependencies.json')
 deleteFile('jest.json')
 deleteFile('LICENSE')
 deleteFile('README.md')
