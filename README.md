@@ -1,3 +1,7 @@
+## TypeScript support out of the box with React Native 0.57!!!
+
+This template will no longer be maintained as native TypeScript support has been added to React Native 0.57: https://github.com/facebook/metro/pull/209
+
 # :space_invader: React Native Template TypeScript · [![Build Status](https://travis-ci.org/emin93/react-native-template-typescript.svg?branch=master)](https://travis-ci.org/emin93/react-native-template-typescript)
 
 Clean and minimalist React Native template for a quick start with TypeScript.
