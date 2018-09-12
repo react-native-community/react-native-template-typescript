@@ -1,7 +1,3 @@
-## TypeScript support out of the box with React Native 0.57!!!
-
-This template will no longer be maintained as native TypeScript support has been added to React Native 0.57: https://github.com/react-native-community/react-native-releases/blob/master/CHANGELOG.md#057
-
 # :space_invader: React Native Template TypeScript · [![Build Status](https://travis-ci.org/emin93/react-native-template-typescript.svg?branch=master)](https://travis-ci.org/emin93/react-native-template-typescript)
 
 Clean and minimalist React Native template for a quick start with TypeScript.
@@ -12,24 +8,24 @@ Clean and minimalist React Native template for a quick start with TypeScript.
 
 - Seamlessly integrated into the React Native CLI! :sparkles:
 - Consistent with the default React Native template
-- React Native TypeScript Transformer included
-- Unit testing in TypeScript with TS Jest
 - Always latest dependencies :raised_hands:
 
 ## :arrow_forward: Quick Start
 
 ```bash
-react-native init MyApp --template typescript && node MyApp/setup.js
+react-native init MyApp --template typescript
 ```
 
 ## :question: FAQ
 
+### Why this template when React Native 0.57+ supports TypeScript out of the box?
+
+First of all, I started this template before React Native 0.57 came out. After React Native 0.57 was announced, I planned to stop maintaining this template. But I realized to properly set up a new React Native 0.57+ project, you still have to do manual work (add type definitions for React & React Naitve, create a `.tsconfig` for type checking, etc.). And that's where this template comes in and does that work for you :blush:.
+
 ### What's included in this template?
 
 - [TypeScript](https://github.com/Microsoft/TypeScript)
-- [React Native TypeScript Transformer](https://github.com/ds300/react-native-typescript-transformer)
 - [Type definitions for React & React Native](https://github.com/DefinitelyTyped/DefinitelyTyped)
-- [TS Jest](https://github.com/kulshekhar/ts-jest)
 
 This template always uses the latest versions of the dependencies at the time when the `react-native init` command is being executed. This means you don't have to worry about old versions.
 
@@ -44,6 +40,10 @@ It deletes obsolete files like the `.flowconfig` and the `setup.js` itself after
 Yes it does.
 
 [![Demonstration of working breakpoints in Visual Studio Code](https://cdn-images-1.medium.com/max/1600/1*ZXfzgq1xKz1B3chYy9xE7w.png)](https://medium.com/@emin93/react-native-typescript-b965059109d3)
+
+### How to do type checking?
+
+`npm run tsc`
 
 ## :globe_with_meridians: Links
 
