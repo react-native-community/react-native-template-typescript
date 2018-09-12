@@ -13,14 +13,14 @@ Clean and minimalist React Native template for a quick start with TypeScript.
 ## :arrow_forward: Quick Start
 
 ```bash
-react-native init MyApp --template typescript
+react-native init MyApp --template typescript && node MyApp/setup.js
 ```
 
 ## :question: FAQ
 
 ### Why this template when React Native 0.57+ supports TypeScript out of the box?
 
-First of all, I started this template before React Native 0.57 came out. After React Native 0.57 was announced, I planned to stop maintaining this template. But I realized to properly set up a new React Native 0.57+ project, you still have to do manual work (add type definitions for React & React Naitve, create a `.tsconfig` for type checking, etc.). And that's where this template comes in and does that work for you. :raised_hands:
+First of all, I started this template before React Native 0.57 came out. After React Native 0.57 was announced, I planned to stop maintenance on this template. But after further evaluation, there's still some manual work to do (add type definitions for React & React Native, create a `.tsconfig` for type checking, etc.) to properly set up a React Native 0.57+ TypeScript project. And that's where this template comes in and does that work for you. :raised_hands:
 
 ### What additional dependencies are included in this template?
 
@@ -35,15 +35,15 @@ Lots of :heart: and credits to the owners and maintainers of those packages.
 
 It deletes obsolete files like the `.flowconfig` and the `setup.js` itself after the setup.
 
+### How to do type checking?
+
+`npm run tsc`
+
 ### Does debugging work?
 
 Yes it does.
 
 [![Demonstration of working breakpoints in Visual Studio Code](https://cdn-images-1.medium.com/max/1600/1*ZXfzgq1xKz1B3chYy9xE7w.png)](https://medium.com/@emin93/react-native-typescript-b965059109d3)
-
-### How to do type checking?
-
-`npm run tsc`
 
 ## :globe_with_meridians: Links
 
