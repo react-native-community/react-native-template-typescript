@@ -20,9 +20,9 @@ react-native init MyApp --template typescript
 
 ### Why this template when React Native 0.57+ supports TypeScript out of the box?
 
-First of all, I started this template before React Native 0.57 came out. After React Native 0.57 was announced, I planned to stop maintaining this template. But I realized to properly set up a new React Native 0.57+ project, you still have to do manual work (add type definitions for React & React Naitve, create a `.tsconfig` for type checking, etc.). And that's where this template comes in and does that work for you :blush:.
+First of all, I started this template before React Native 0.57 came out. After React Native 0.57 was announced, I planned to stop maintaining this template. But I realized to properly set up a new React Native 0.57+ project, you still have to do manual work (add type definitions for React & React Naitve, create a `.tsconfig` for type checking, etc.). And that's where this template comes in and does that work for you. :raised_hands:
 
-### What's included in this template?
+### What additional dependencies are included in this template?
 
 - [TypeScript](https://github.com/Microsoft/TypeScript)
 - [Type definitions for React & React Native](https://github.com/DefinitelyTyped/DefinitelyTyped)
