@@ -4,7 +4,7 @@
   "description": "Clean and minimalist React Native template for a quick start with TypeScript.",
   "scripts": {
     "test": "standard setup.js",
-    "prepublishOnly": "npm --no-git-tag-version version from-git"
+    "prepublishOnly": "npm version $TRAVIS_TAG"
   },
   "repository": {
     "type": "git",
