@@ -26,6 +26,7 @@ Actually, when React Native 0.57 was announced, I planned to stop maintenance on
 
 - [TypeScript](https://github.com/Microsoft/TypeScript)
 - [Type definitions for React & React Native](https://github.com/DefinitelyTyped/DefinitelyTyped)
+- [ts-jest](https://github.com/kulshekhar/ts-jest)
 
 This template always uses the latest versions of the dependencies at the time when the `react-native init` command is being executed. This means you don't have to worry about old versions.
 

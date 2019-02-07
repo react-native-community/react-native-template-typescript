@@ -4,7 +4,7 @@
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "isolatedModules": true,
-    "jsx": "react-native",
+    "jsx": "react",
     "lib": ["es6"],
     "moduleResolution": "node",
     "noEmit": true,
