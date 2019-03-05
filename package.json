@@ -1,6 +1,6 @@
 {
   "name": "react-native-template-typescript",
-  "version": "0.0.1",
+  "version": "4.1.10",
   "description": "Clean and minimalist React Native template for a quick start with TypeScript.",
   "scripts": {
     "test": "standard setup.js",
