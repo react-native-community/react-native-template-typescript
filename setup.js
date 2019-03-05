@@ -4,6 +4,10 @@ const path = require('path')
 const packageJson = require('./package.json')
 const jestConfig = require('./jest.json')
 
+if (!packageJson.jest) {
+  process.exit()
+}
+
 const deleteFile = fileName => fs.unlinkSync(path.join(__dirname, fileName))
 const writeFile = (fileName, data) => fs.writeFileSync(path.join(__dirname, fileName), data)
 
