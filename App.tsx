@@ -4,7 +4,7 @@
  * 
  * Generated with the TypeScript template
  * https://github.com/emin93/react-native-template-typescript
- *
+ * 
  * @format
  */
 
