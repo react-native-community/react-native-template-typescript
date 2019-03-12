@@ -1,8 +1,6 @@
 # Contributing
 
-Cool, I'm glad you decided to contribute to React Native Template TypeScript.
-
-Don't worry, I won't bother you with thousands of rules. I want to make contributing to this project as easy and transparent as possible.
+Contributing to this project should be as easy and transparent as possible.
 
 ## Workflow
 
@@ -15,7 +13,3 @@ We use [GitHub Flow](https://guides.github.com/introduction/flow/), so all code 
 ## License
 
 By contributing, you agree that your contributions will be licensed under the [MIT License](https://choosealicense.com/licenses/mit/).
-
-## Code style
-
-Currently there is no lint configuration, but you should try to stay consistent with the existing code.

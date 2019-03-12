@@ -13,38 +13,29 @@ Clean and minimalist React Native template for a quick start with TypeScript.
 ## :arrow_forward: Quick Start
 
 ```bash
-react-native init MyApp --template typescript && node MyApp/setup.js
+react-native init MyApp --template typescript
 ```
 
 ## :question: FAQ
-
-### Why this template when React Native 0.57+ supports TypeScript out of the box?
-
-Actually, when React Native 0.57 was announced, I planned to stop maintenance on this template. But after further evaluation, there's still quite a lot of manual work to do (add type definitions for React & React Native, create a `.tsconfig` for type checking, etc.) to properly set up a React Native 0.57+ TypeScript project. And that's where this template comes in and does that work for you. :raised_hands:
 
 ### What additional dependencies are included in this template?
 
 - [TypeScript](https://github.com/Microsoft/TypeScript)
 - [Type definitions for React & React Native](https://github.com/DefinitelyTyped/DefinitelyTyped)
-- [ts-jest](https://github.com/kulshekhar/ts-jest)
 
 This template always uses the latest versions of the dependencies at the time when the `react-native init` command is being executed. This means you don't have to worry about old versions.
 
 Lots of :heart: and credits to the owners and maintainers of those packages.
 
-### Why the setup script?
+### Does debugging work?
 
-It deletes obsolete files like the `.flowconfig` and the `setup.js` itself after the setup.
+Yes it does. :tada:
+
+[![Demonstration of working breakpoints in Visual Studio Code](https://cdn-images-1.medium.com/max/1600/1*ZXfzgq1xKz1B3chYy9xE7w.png)](https://medium.com/@emin93/react-native-typescript-b965059109d3)
 
 ### How to do type checking?
 
-`npm run tsc`
-
-### Does debugging work?
-
-Yes it does.
-
-[![Demonstration of working breakpoints in Visual Studio Code](https://cdn-images-1.medium.com/max/1600/1*ZXfzgq1xKz1B3chYy9xE7w.png)](https://medium.com/@emin93/react-native-typescript-b965059109d3)
+`npx tsc`
 
 ## :globe_with_meridians: Links
 

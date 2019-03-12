@@ -3,6 +3,5 @@
   "@types/react-native": "latest",
   "@types/react-test-renderer": "latest",
   "@types/react": "latest",
-  "ts-jest": "latest",
   "typescript": "latest"
 }
