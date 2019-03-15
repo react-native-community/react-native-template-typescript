@@ -42,6 +42,7 @@ Yes it does. :tada:
 - ["Using React Native with TypeScript just became simple" on Medium](https://medium.com/@emin93/react-native-typescript-b965059109d3)
 - ["24 tips for React Native you probably want to know" on Albert Gao's blog](http://albertgao.xyz/2018/05/30/24-tips-for-react-native-you-probably-want-to-know/#9-For-Typescript)
 - ["3 Easy Steps to Set Up React Native with TypeScript, Jest and Enzyme" on Medium by Jan Hesters](https://medium.com/@jan.hesters/3-easy-steps-to-set-up-react-native-with-typescript-jest-and-enzyme-592ca042262f)
+- ["Configs to make in an existing React Native project to migrate it to Typescript" - Gist by Italo Menezes](https://gist.github.com/italomlp/4d16bf0f19d09f9fae48d272f9e6306e)
 
 ## :computer: Contributing
 
