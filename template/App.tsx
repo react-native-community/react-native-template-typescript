@@ -1,5 +1,5 @@
 /**
- * Sample React Native App
+ * ProjectName
  * https://github.com/facebook/react-native
  * 
  * Generated with the TypeScript template
