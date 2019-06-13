@@ -47,7 +47,3 @@ Yes it does. :tada:
 ## :computer: Contributing
 
 Contributions are very welcome. Please check out the [contributing document](https://github.com/emin93/react-native-template-typescript/blob/master/CONTRIBUTING.md).
-
-### Donations
-
-I created this project in my spare time because I enjoy coding. Of course you can support me by [buying me a coffee](https://www.paypal.me/emin93) if you wish. :coffee: :relieved:
