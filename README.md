@@ -13,7 +13,7 @@ Clean and minimalist React Native template for a quick start with TypeScript.
 ## :arrow_forward: Quick Start
 
 ```bash
-react-native init MyApp --template typescript
+npx react-native init MyApp --template=typescript
 ```
 
 ## :question: FAQ
