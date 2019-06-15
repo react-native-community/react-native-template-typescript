@@ -1,49 +1,46 @@
-# :space_invader: React Native Template TypeScript · [![Build Status](https://travis-ci.org/emin93/react-native-template-typescript.svg?branch=master)](https://travis-ci.org/emin93/react-native-template-typescript)
+# :space_invader: React Native Template TypeScript
 
-Clean and minimalist React Native template for a quick start with TypeScript.
+<p>
+  <a href="https://github.com/emin93/react-native-template-typescript#readme">
+    <img alt="Build Status" src="https://img.shields.io/travis/emin93/react-native-template-typescript.svg" target="_blank" />
+  </a>
+  <a href="https://github.com/emin93/react-native-template-typescript#readme">
+    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" target="_blank" />
+  </a>
+  <a href="https://github.com/emin93/react-native-template-typescript/graphs/commit-activity">
+    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" target="_blank" />
+  </a>
+  <a href="https://github.com/emin93/react-native-template-typescript/blob/master/LICENSE">
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" target="_blank" />
+  </a>
+</p>
 
-[![Header](https://cdn-images-1.medium.com/max/500/1*E9RnPOATuhjuNrlFkv5oSg.jpeg)](https://medium.com/@emin93/react-native-typescript-b965059109d3)
+> Clean and minimalist React Native template for a quick start with TypeScript.
 
 ## :star: Features
 
-- Seamlessly integrated into the React Native CLI! :sparkles:
+- Elegant usage directly within the [React Native CLI](https://github.com/react-native-community/cli)
 - Consistent with the default React Native template
-- Always latest dependencies :raised_hands:
+- Minimal additional dependencies
 
-## :arrow_forward: Quick Start
+## :arrow_forward: Usage
 
-```bash
+### React Native >= 0.60
+
+```sh
 npx react-native init MyApp --template=typescript
 ```
 
-## :question: FAQ
+### React Native <= 0.59
 
-### What additional dependencies are included in this template?
-
-- [TypeScript](https://github.com/Microsoft/TypeScript)
-- [Type definitions for React & React Native](https://github.com/DefinitelyTyped/DefinitelyTyped)
-
-This template always uses the latest versions of the dependencies at the time when the `react-native init` command is being executed. This means you don't have to worry about old versions.
-
-Lots of :heart: and credits to the owners and maintainers of those packages.
-
-### Does debugging work?
-
-Yes it does. :tada:
-
-[![Demonstration of working breakpoints in Visual Studio Code](https://cdn-images-1.medium.com/max/1600/1*ZXfzgq1xKz1B3chYy9xE7w.png)](https://medium.com/@emin93/react-native-typescript-b965059109d3)
-
-### How to do type checking?
-
-`npx tsc`
-
-## :globe_with_meridians: Links
-
-- ["Using React Native with TypeScript just became simple" on Medium](https://medium.com/@emin93/react-native-typescript-b965059109d3)
-- ["24 tips for React Native you probably want to know" on Albert Gao's blog](http://albertgao.xyz/2018/05/30/24-tips-for-react-native-you-probably-want-to-know/#9-For-Typescript)
-- ["3 Easy Steps to Set Up React Native with TypeScript, Jest and Enzyme" on Medium by Jan Hesters](https://medium.com/@jan.hesters/3-easy-steps-to-set-up-react-native-with-typescript-jest-and-enzyme-592ca042262f)
-- ["Configs to make in an existing React Native project to migrate it to Typescript" - Gist by Italo Menezes](https://gist.github.com/italomlp/4d16bf0f19d09f9fae48d272f9e6306e)
+```sh
+react-native init MyApp --template typescript
+```
 
 ## :computer: Contributing
 
-Contributions are very welcome. Please check out the [contributing document](https://github.com/emin93/react-native-template-typescript/blob/master/CONTRIBUTING.md).
+Contributions are very welcome. Please check out the [contributing document](CONTRIBUTING.md).
+
+## :bookmark: License
+
+This project is [MIT](LICENSE) licensed.
