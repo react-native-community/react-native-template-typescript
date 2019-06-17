@@ -1,8 +1,8 @@
 # :space_invader: React Native Template TypeScript
 
 <p>
-  <a href="https://travis-ci.org/emin93/react-native-template-typescript">
-    <img alt="Build Status" src="https://img.shields.io/travis/emin93/react-native-template-typescript.svg" target="_blank" />
+  <a href="https://travis-ci.org/react-native-community/react-native-template-typescript">
+    <img alt="Build Status" src="https://img.shields.io/travis/react-native-community/react-native-template-typescript.svg" target="_blank" />
   </a>
   <a href="https://github.com/react-native-community/react-native-template-typescript#readme">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" target="_blank" />
