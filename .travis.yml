@@ -11,3 +11,4 @@ deploy:
   email: "emin@emin.ch"
   api_key: "${NPM_TOKEN}"
   skip_cleanup: true
+  tag: next
