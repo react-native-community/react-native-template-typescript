@@ -4,15 +4,13 @@ node_js:
 deploy:
   - provider: npm
     on:
-      branch: master
-      tags: true
+      condition: $TRAVIS_BRANCH == "master" && -n $TRAVIS_TAG
     email: "emin@emin.ch"
     api_key: "${NPM_TOKEN}"
     skip_cleanup: true
   - provider: npm
     on:
-      branch: master-cli-v2
-      tags: true
+      condition: $TRAVIS_BRANCH == "master-cli-v2" && -n $TRAVIS_TAG
     email: "emin@emin.ch"
     api_key: "${NPM_TOKEN}"
     skip_cleanup: true
