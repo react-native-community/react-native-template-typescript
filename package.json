@@ -5,6 +5,10 @@
   "scripts": {
     "prepublishOnly": "npm --no-git-tag-version version $TRAVIS_TAG"
   },
+  "files": [
+    "template",
+    "template.config.js"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/emin93/react-native-template-typescript.git"
