@@ -25,14 +25,6 @@
 
 ## :arrow_forward: Usage
 
-### React Native >= 0.60
-
-```sh
-npx react-native init MyApp --template=typescript@next
-```
-
-### React Native <= 0.59
-
 ```sh
 react-native init MyApp --template typescript
 ```
