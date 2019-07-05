@@ -1,14 +1,19 @@
 language: node_js
 node_js:
   - "node"
-cache:
-  directories:
-    - "node_modules"
 deploy:
-  on:
-    branch: master
-    tags: true
-  provider: npm
-  email: "emin@emin.ch"
-  api_key: "${NPM_TOKEN}"
-  skip_cleanup: true
+  - provider: npm
+    on:
+      branch: master
+      tags: true
+    email: "emin@emin.ch"
+    api_key: "${NPM_TOKEN}"
+    skip_cleanup: true
+  - provider: npm
+    on:
+      branch: master-cli-v2
+      tags: true
+    email: "emin@emin.ch"
+    api_key: "${NPM_TOKEN}"
+    skip_cleanup: true
+    tag: next
