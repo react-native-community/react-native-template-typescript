@@ -4,11 +4,9 @@ node_js:
 cache:
   directories:
     - "node_modules"
-branches:
-  only:
-  - master
 deploy:
   on:
+    branch: master
     tags: true
   provider: npm
   email: "emin@emin.ch"
