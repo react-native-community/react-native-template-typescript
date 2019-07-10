@@ -7,7 +7,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "react": "16.8.1",
+    "react": "16.8.6",
     "react-native": "0.60.0"
   },
   "devDependencies": {
@@ -16,13 +16,13 @@
     "@react-native-community/eslint-config": "^0.0.3",
     "@types/jest": "^24.0.15",
     "@types/react": "^16.8.23",
-    "@types/react-native": "^0.57.65",
+    "@types/react-native": "^0.60.0",
     "@types/react-test-renderer": "^16.8.2",
     "babel-jest": "^24.1.0",
     "jest": "^24.1.0",
-    "metro-react-native-babel-preset": "^0.51.1",
-    "react-test-renderer": "16.8.1",
-    "typescript": "^3.5.2"
+    "metro-react-native-babel-preset": "^0.54.1",
+    "react-test-renderer": "^16.8.6",
+    "typescript": "^3.5.3"
   },
   "jest": {
     "preset": "react-native",
