@@ -25,6 +25,6 @@
   },
   "homepage": "https://github.com/emin93/react-native-template-typescript#readme",
   "devDependencies": {
-    "standard": "12.0.1"
+    "standard": "13.0.2"
   }
 }
