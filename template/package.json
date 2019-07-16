@@ -8,20 +8,20 @@
   },
   "dependencies": {
     "react": "16.8.6",
-    "react-native": "0.60.0"
+    "react-native": "0.60.3"
   },
   "devDependencies": {
-    "@babel/core": "^7.3.3",
-    "@babel/runtime": "^7.3.1",
+    "@babel/core": "^7.5.0",
+    "@babel/runtime": "^7.5.0",
     "@react-native-community/eslint-config": "^0.0.3",
     "@types/jest": "^24.0.15",
     "@types/react": "^16.8.23",
-    "@types/react-native": "^0.60.0",
+    "@types/react-native": "^0.60.1",
     "@types/react-test-renderer": "^16.8.2",
     "babel-jest": "^24.1.0",
     "jest": "^24.1.0",
     "metro-react-native-babel-preset": "^0.54.1",
-    "react-test-renderer": "^16.8.6",
+    "react-test-renderer": "16.8.6",
     "typescript": "^3.5.3"
   },
   "jest": {
