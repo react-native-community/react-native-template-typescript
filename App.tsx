@@ -3,7 +3,7 @@
  * https://github.com/facebook/react-native
  *
  * Generated with the TypeScript template
- * https://github.com/emin93/react-native-template-typescript
+ * https://github.com/react-native-community/react-native-template-typescript
  *
  * @format
  */
@@ -27,6 +27,8 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 
 const App = () => {
+  const usingHermes = typeof HermesInternal === 'object' && HermesInternal !== null;
+
   return (
     <Fragment>
       <StatusBar barStyle="dark-content" />
@@ -35,7 +37,7 @@ const App = () => {
           contentInsetAdjustmentBehavior="automatic"
           style={styles.scrollView}>
           <Header />
-          {global.HermesInternal == null ? null : (
+          {!usingHermes ? null : (
             <View style={styles.engine}>
               <Text style={styles.footer}>Engine: Hermes</Text>
             </View>
