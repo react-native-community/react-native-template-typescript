@@ -28,7 +28,7 @@
 ### React Native >= 0.60
 
 ```sh
-npx react-native init MyApp --template typescript
+npx react-native init MyApp --template react-native-template-typescript
 ```
 
 ## :computer: Contributing
