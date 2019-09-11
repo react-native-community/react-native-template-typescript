@@ -1,17 +1,13 @@
 language: node_js
 node_js:
-  - "node"
+  - 'node'
+branches:
+  only:
+    - master
 deploy:
-  - provider: npm
-    on:
-      condition: $TRAVIS_BRANCH == "master" && -n $TRAVIS_TAG
-    email: "emin@emin.ch"
-    api_key: "${NPM_TOKEN}"
-    skip_cleanup: true
-  - provider: npm
-    on:
-      condition: $TRAVIS_BRANCH == "master-cli-v2" && -n $TRAVIS_TAG
-    email: "emin@emin.ch"
-    api_key: "${NPM_TOKEN}"
-    skip_cleanup: true
-    tag: next
+  on:
+    tags: true
+  provider: npm
+  email: 'emin@emin.ch'
+  api_key: '${NPM_TOKEN}'
+  skip_cleanup: true
