@@ -1,11 +1,9 @@
 language: node_js
 node_js:
   - 'node'
-branches:
-  only:
-    - master
 deploy:
   on:
+    branch: master
     tags: true
   provider: npm
   email: 'emin@emin.ch'
