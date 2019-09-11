@@ -3,7 +3,6 @@ node_js:
   - 'node'
 deploy:
   on:
-    branch: master
     tags: true
   provider: npm
   email: 'emin@emin.ch'
