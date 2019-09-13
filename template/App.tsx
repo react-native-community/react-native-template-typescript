@@ -3,7 +3,7 @@
  * https://github.com/facebook/react-native
  *
  * Generated with the TypeScript template
- * https://github.com/emin93/react-native-template-typescript
+ * https://github.com/react-native-community/react-native-template-typescript
  *
  * @format
  */
