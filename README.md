@@ -31,6 +31,8 @@
 npx react-native init MyApp --template react-native-template-typescript
 ```
 
+> You may need to remove the globally installed **react-native-cli** (`npm uninstall -g react-native-cli`), for the above command to work. The global **react-native-cli** is deprecated, and no longer supported.
+
 ## :computer: Contributing
 
 Contributions are very welcome. Please check out the [contributing document](CONTRIBUTING.md).
