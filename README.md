@@ -25,10 +25,16 @@
 
 ## :arrow_forward: Usage
 
-> `react-native@0.60` or higher
+> `react-native@0.61.0` or higher
 
 ```sh
 npx react-native init MyApp --template react-native-template-typescript
+```
+
+> `react-native@0.60.x`
+
+```sh
+npx react-native@0.60.6 init MyApp --template react-native-template-typescript@6.2.0
 ```
 
 ### Note on the legacy CLI
