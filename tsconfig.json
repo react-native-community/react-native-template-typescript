@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "baseUrl": ".",
+    "jsx": "react",
+    "checkJs": false,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": false,
+    "importHelpers": true,
+    "lib": ["dom", "es2015", "es2016", "es2017" ],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": false,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noStrictGenericChecks": false,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "outDir": "build/dist",
+    "rootDir": "src",
+    "sourceMap": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "target": "es5"
+  },
+  "exclude": [
+	"amplify",
+    "node_modules",
+    "build",
+    "scripts",
+    "acceptance-tests",
+    "webpack",
+    "jest",
+    "src/setupTests.ts"
+  ]
+}
