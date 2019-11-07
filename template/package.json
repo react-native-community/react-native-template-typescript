@@ -10,14 +10,14 @@
   },
   "dependencies": {
     "react": "16.9.0",
-    "react-native": "0.61.3"
+    "react-native": "0.61.4"
   },
   "devDependencies": {
     "@babel/core": "^7.6.2",
     "@babel/runtime": "^7.6.2",
     "@react-native-community/eslint-config": "^0.0.5",
     "@types/jest": "^24.0.18",
-    "@types/react-native": "^0.60.21",
+    "@types/react-native": "^0.60.22",
     "@types/react-test-renderer": "16.9.0",
     "babel-jest": "^24.9.0",
     "jest": "^24.9.0",
