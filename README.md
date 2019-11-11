@@ -28,7 +28,7 @@
 > `react-native@0.61.0` or higher
 
 ```sh
-npx react-native init MyApp --template react-native-template-typescript
+npx react-native init MyApp --template typescript
 ```
 
 > `react-native@0.60.x`
