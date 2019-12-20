@@ -8,7 +8,7 @@
  * @format
  */
 
-/* global HermesInternal */
+declare var global: {HermesInternal: null | {}};
 
 import React from 'react';
 import {
@@ -37,7 +37,7 @@ const App = () => {
           contentInsetAdjustmentBehavior="automatic"
           style={styles.scrollView}>
           <Header />
-          {HermesInternal == null ? null : (
+          {global.HermesInternal == null ? null : (
             <View style={styles.engine}>
               <Text style={styles.footer}>Engine: Hermes</Text>
             </View>
