@@ -8,8 +8,6 @@
  * @format
  */
 
-declare var global: {HermesInternal: null | {}};
-
 import React from 'react';
 import {
   SafeAreaView,
@@ -27,6 +25,8 @@ import {
   DebugInstructions,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
+
+declare var global: {HermesInternal: null | {}};
 
 const App = () => {
   return (
