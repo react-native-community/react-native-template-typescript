@@ -26,8 +26,9 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
+declare var global: {HermesInternal: null | {}};
+
 const App = () => {
-  const usingHermes = typeof HermesInternal === 'object' && HermesInternal !== null;
   return (
     <>
       <StatusBar barStyle="dark-content" />
@@ -36,7 +37,7 @@ const App = () => {
           contentInsetAdjustmentBehavior="automatic"
           style={styles.scrollView}>
           <Header />
-          {!usingHermes ? null : (
+          {global.HermesInternal == null ? null : (
             <View style={styles.engine}>
               <Text style={styles.footer}>Engine: Hermes</Text>
             </View>
