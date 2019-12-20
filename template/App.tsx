@@ -8,6 +8,8 @@
  * @format
  */
 
+/* global HermesInternal */
+
 import React from 'react';
 import {
   SafeAreaView,
@@ -27,7 +29,6 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 
 const App = () => {
-  const usingHermes = typeof HermesInternal === 'object' && HermesInternal !== null;
   return (
     <>
       <StatusBar barStyle="dark-content" />
@@ -36,7 +37,7 @@ const App = () => {
           contentInsetAdjustmentBehavior="automatic"
           style={styles.scrollView}>
           <Header />
-          {!usingHermes ? null : (
+          {HermesInternal == null ? null : (
             <View style={styles.engine}>
               <Text style={styles.footer}>Engine: Hermes</Text>
             </View>
