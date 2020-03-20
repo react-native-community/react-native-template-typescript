@@ -12,4 +12,4 @@ Please add the log output here.
 
 ## Steps to reproduce
 
-1. 
+1.
