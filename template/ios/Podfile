@@ -1,33 +1,50 @@
 require_relative '../node_modules/react-native/scripts/react_native_pods'
 require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
 
-platform :ios, '10.0'
+source 'https://github.com/react-native-tvos/react-native-tvos-podspecs.git'
+source 'https://cdn.cocoapods.org/'
 
 target 'HelloWorld' do
+
+  platform :ios, '10.0'
+
   config = use_native_modules!
 
   use_react_native!(:path => config["reactNativePath"])
+
+  use_flipper_tvos!
+# If you want to use Flipper only for iOS, you can replace the line above with
+#
+# use_flipper!
+#
+# to pick up newer Flipper pods used in RN core 0.63.
+# They have not yet been adapted to work in tvOS.
+# use_flipper_tvos! works for both iOS and tvOS.
 
   target 'HelloWorldTests' do
     inherit! :complete
     # Pods for testing
   end
 
-  # Enables Flipper.
-  #
-  # Note that if you have use_frameworks! enabled, Flipper will not work and
-  # you should disable these next few lines.
-  use_flipper!
-  post_install do |installer|
-    flipper_post_install(installer)
-  end
 end
 
 target 'HelloWorld-tvOS' do
-  # Pods for HelloWorld-tvOS
+
+  platform :tvos, '12.0'
+
+  config = use_native_modules!
+
+  use_react_native!(:path => config["reactNativePath"])
+
+  use_flipper_tvos!
 
   target 'HelloWorld-tvOSTests' do
-    inherit! :search_paths
+    inherit! :complete
     # Pods for testing
   end
+
+end
+
+post_install do |installer|
+  flipper_post_install(installer)
 end

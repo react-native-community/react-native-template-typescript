@@ -1,7 +1,7 @@
 {
-  "name": "react-native-template-typescript",
+  "name": "react-native-template-typescript-tv",
   "version": "0.0.1",
-  "description": "Clean and minimalist React Native template for a quick start with TypeScript.",
+  "description": "Clean and minimalist React Native template for a quick start with TypeScript for Android TV and Apple TV.",
   "scripts": {
     "prepublishOnly": "npm --no-git-tag-version version $TRAVIS_TAG"
   },
@@ -11,7 +11,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/emin93/react-native-template-typescript.git"
+    "url": "git+https://github.com/react-native-tvos/react-native-template-typescript-tv.git"
   },
   "keywords": [
     "react-native",
@@ -25,5 +25,5 @@
   "bugs": {
     "url": "https://github.com/emin93/react-native-template-typescript/issues"
   },
-  "homepage": "https://github.com/emin93/react-native-template-typescript#readme"
+  "homepage": "https://github.com/react-native-tvos/react-native-template-typescript-tv#readme"
 }
