@@ -15,7 +15,8 @@ import {
   ScrollView,
   View,
   Text,
-  StatusBar,
+  useTVEventHandler,
+  HWFocusEvent,
 } from 'react-native';
 
 import {
@@ -26,28 +27,35 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
+import 'react-native/tvos-types.d';
+
 declare const global: {HermesInternal: null | {}};
 
 const App = () => {
+  const [lastEventType, setLastEventType] = React.useState('');
+  const myTVEventHandler = (evt: HWFocusEvent) => {
+    setLastEventType(evt.eventType);
+  };
+  useTVEventHandler(myTVEventHandler);
   return (
     <>
-      <StatusBar barStyle="dark-content" />
       <SafeAreaView>
         <ScrollView
           contentInsetAdjustmentBehavior="automatic"
           style={styles.scrollView}>
           <Header />
-          {global.HermesInternal == null ? null : (
-            <View style={styles.engine}>
+          <View style={styles.engine}>
+            <Text style={styles.footer}>TVEvent: {lastEventType}</Text>
+            {global.HermesInternal == null ? null : (
               <Text style={styles.footer}>Engine: Hermes</Text>
-            </View>
-          )}
+            )}
+          </View>
           <View style={styles.body}>
             <View style={styles.sectionContainer}>
               <Text style={styles.sectionTitle}>Step One</Text>
               <Text style={styles.sectionDescription}>
-                Edit <Text style={styles.highlight}>App.tsx</Text> to change this
-                screen and then come back to see your edits.
+                Edit <Text style={styles.highlight}>App.tsx</Text> to change
+                this screen and then come back to see your edits.
               </Text>
             </View>
             <View style={styles.sectionContainer}>
