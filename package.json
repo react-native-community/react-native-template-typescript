@@ -3,7 +3,6 @@
   "version": "0.0.1",
   "description": "Clean and minimalist React Native template for a quick start with TypeScript.",
   "scripts": {
-    "test": "Testing is currently disabled.",
     "prepublishOnly": "npm --no-git-tag-version version $TRAVIS_TAG"
   },
   "files": [
