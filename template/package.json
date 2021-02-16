@@ -27,6 +27,9 @@
     "react-test-renderer": "16.13.1",
     "typescript": "^3.8.3"
   },
+  "resolutions": {
+    "@types/react": "^16"
+  },
   "jest": {
     "preset": "react-native",
     "moduleFileExtensions": [
