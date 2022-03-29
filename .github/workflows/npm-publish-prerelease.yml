@@ -2,7 +2,7 @@ name: npm Package
 
 on:
   release:
-    types: [created]
+    types: [prereleased]
 
 jobs:
   publish-npm:
@@ -15,6 +15,6 @@ jobs:
           registry-url: "https://registry.npmjs.org"
       - run: npm ci
       - run: npm --no-git-tag-version version ${{ github.event.release.tag_name }}
-      - run: npm publish --access public
+      - run: npm publish --access public --tag next
         env:
           NODE_AUTH_TOKEN: ${{ secrets.npm_token }}
