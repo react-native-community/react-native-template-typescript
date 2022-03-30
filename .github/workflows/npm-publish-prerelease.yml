@@ -1,4 +1,4 @@
-name: npm Package
+name: npm Package Prerelease
 
 on:
   release:
