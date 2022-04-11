@@ -1,7 +1,7 @@
 {
   "name": "react-native-template-storybook",
   "version": "0.0.1",
-  "description": "Clean and minimalist React Native template for a quick start with TypeScript.",
+  "description": "React Native template for a quick start with storybook.",
   "scripts": {
     "test": "exit 0"
   },
