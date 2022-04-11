@@ -6,7 +6,7 @@ fs.rename("_ondevice", ".ondevice", function (err) {
   if (err) {
     throw err;
   } else {
-    console.log("Successfully configured the ondevice folder!");
+    console.log("\nSuccessfully configured the ondevice folder!");
   }
 });
 
