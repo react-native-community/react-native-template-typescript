@@ -1,5 +1,5 @@
 {
-  "name": "react-native-template-typescript",
+  "name": "react-native-template-storybook",
   "version": "0.0.1",
   "description": "Clean and minimalist React Native template for a quick start with TypeScript.",
   "scripts": {
@@ -11,19 +11,20 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/emin93/react-native-template-typescript.git"
+    "url": "git+https://github.com/dannyhw/react-native-template-storybook.git"
   },
   "keywords": [
     "react-native",
     "typescript",
     "jest",
     "template",
-    "boilerplate"
+    "boilerplate",
+    "storybook"
   ],
-  "author": "Emin Khateeb <emin@emin.ch>",
+  "author": "Daniel Williams",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/emin93/react-native-template-typescript/issues"
+    "url": "https://github.com/dannyhw/react-native-template-storybook/issues"
   },
-  "homepage": "https://github.com/emin93/react-native-template-typescript#readme"
+  "homepage": "https://github.com/dannyhw/react-native-template-storybook#readme"
 }
