@@ -7,7 +7,8 @@
   },
   "files": [
     "template",
-    "template.config.js"
+    "template.config.js",
+    "after_init.js"
   ],
   "repository": {
     "type": "git",
