@@ -21,9 +21,6 @@
     "boilerplate",
     "storybook"
   ],
-  "dependencies": {
-    "shelljs": "^0.8.5"
-  },
   "author": "Daniel Williams",
   "license": "MIT",
   "bugs": {
