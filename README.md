@@ -1,4 +1,4 @@
-#  React Native Template TypeScript
+#  React Native Storybook Template
 
 <p>
   <a href="https://github.com/dannyhw/react-native-template-storybook/actions/workflows/npm-publish.yml">
