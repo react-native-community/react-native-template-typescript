@@ -34,7 +34,7 @@ npx react-native init MyApp --template react-native-template-typescript
 #### e.g. `react-native@0.67.x`
 
 ```sh
-npx react-native init MyApp --template react-native-template-typescript@6.9.*
+npx react-native init MyApp --template "react-native-template-typescript@6.9.*"
 ```
 
 See the below table to find out which version of the template to use.
