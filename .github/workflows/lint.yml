@@ -1,0 +1,17 @@
+name: lint & typescript check
+
+on: push
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./template
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install dependencies
+        run: yarn
+      - run: mv _eslintrc.js .eslintrc.js && mv _prettierrc.js .prettierrc.js
+      - name: Lint code
+        run: yarn lint
