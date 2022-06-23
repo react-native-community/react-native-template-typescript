@@ -1,6 +1,6 @@
 name: lint & typescript check
 
-on: pushcd
+on: push
 
 jobs:
   lint:
