@@ -43,6 +43,7 @@ See the below table to find out which version of the template to use.
 
 | React Native | Template |
 | ------------ | -------- |
+| 0.69         | 6.11.\*  |
 | 0.68         | 6.10.\*  |
 | 0.67         | 6.9.\*   |
 | 0.66         | 6.8.\*   |
