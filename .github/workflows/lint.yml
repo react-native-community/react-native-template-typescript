@@ -2,11 +2,14 @@ name: lint & typescript check
 
 on: push
 
+defaults:
+  run:
+    working-directory: ./template
+
 jobs:
   lint:
     runs-on: ubuntu-latest
     steps:
-      - run: cd template
       - name: Install dependencies
         run: yarn
       - run: mv _eslintrc.js .eslintrc.js && mv _prettierrc.js .prettierrc.js
