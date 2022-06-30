@@ -1,6 +1,6 @@
 name: lint & typescript check
 
-on: push
+on: [push, pull_request]
 
 jobs:
   lint:
