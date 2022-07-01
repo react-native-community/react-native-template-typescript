@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "react": "18.0.0",
-    "react-native": "0.69.0"
+    "react-native": "0.69.1"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
@@ -19,7 +19,7 @@
     "@react-native-community/eslint-config": "^2.0.0",
     "@tsconfig/react-native": "^2.0.0",
     "@types/jest": "^26.0.23",
-    "@types/react-native": "^0.69.0",
+    "@types/react-native": "^0.69.1",
     "@types/react-test-renderer": "^18.0.0",
     "@typescript-eslint/eslint-plugin": "^5.29.0",
     "@typescript-eslint/parser": "^5.29.0",
