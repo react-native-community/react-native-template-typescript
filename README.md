@@ -31,10 +31,10 @@ npx react-native init MyApp --template react-native-template-typescript
 
 ### Usage with older versions of React Native
 
-#### e.g. `react-native@0.67.x`
+#### e.g. `react-native@0.69.x`
 
 ```sh
-npx react-native init MyApp --template react-native-template-typescript@6.9.*
+npx react-native init MyApp --template react-native-template-typescript@6.11.9
 ```
 
 See the below table to find out which version of the template to use.
@@ -43,6 +43,7 @@ See the below table to find out which version of the template to use.
 
 | React Native | Template |
 | ------------ | -------- |
+| 0.70         | 6.12.\*  |
 | 0.69         | 6.11.\*  |
 | 0.68         | 6.10.\*  |
 | 0.67         | 6.9.\*   |
