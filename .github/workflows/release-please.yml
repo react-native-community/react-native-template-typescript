@@ -15,7 +15,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           release-type: node
-          package-name: @kairyomeshi/react-native-template
+          package-name: '@kairyomeshi/react-native-template'
 
       - uses: actions/checkout@v2
       - name: tag major and minor versions
