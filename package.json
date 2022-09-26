@@ -1,7 +1,7 @@
 {
-  "name": "react-native-template-typescript",
-  "version": "0.0.1",
-  "description": "Clean and minimalist React Native template for a quick start with TypeScript.",
+  "name": "@kairyomeshi/react-native-template",
+  "version": "1.0.0",
+  "description": "Clean and minimalist React Native template for a quick start.",
   "scripts": {
     "test": "exit 0"
   },
@@ -11,7 +11,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/emin93/react-native-template-typescript.git"
+    "url": "git+https://github.com/kairyomeshi/react-native-template.git"
   },
   "keywords": [
     "react-native",
@@ -20,10 +20,10 @@
     "template",
     "boilerplate"
   ],
-  "author": "Emin Khateeb <emin@emin.ch>",
+  "author": "Yuta Sugimura",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/emin93/react-native-template-typescript/issues"
+    "url": "https://github.com/kairyomeshi/react-native-template/issues"
   },
-  "homepage": "https://github.com/emin93/react-native-template-typescript#readme"
+  "homepage": "https://github.com/kairyomeshi/react-native-template#readme"
 }
