@@ -1,9 +1,8 @@
 # :space_invader: React Native Template
 
+[![release-please](https://github.com/kairyomeshi/react-native-template/actions/workflows/release-please.yml/badge.svg)](https://github.com/kairyomeshi/react-native-template/actions/workflows/release-please.yml)
+
 <p>
-  <a href="https://github.com/kairyomeshi/react-native-template/actions/workflows/npm-publish.yml">
-    <img alt="Build Status" src="https://github.com/kairyomeshi/react-native-template/actions/workflows/npm-publish.yml/badge.svg" />
-  </a>
   <a href="https://github.com/kairyomeshi/react-native-template#readme">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
   </a>
