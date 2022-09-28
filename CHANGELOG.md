@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/kairyomeshi/react-native-template/compare/v1.0.1...v1.0.2) (2022-09-28)
+
+
+### Bug Fixes
+
+* add template/README.md ([ed39d7e](https://github.com/kairyomeshi/react-native-template/commit/ed39d7eede0ebc7a4753552033b27a30e4e64c08))
+
 ## [1.0.1](https://github.com/kairyomeshi/react-native-template/compare/v1.0.0...v1.0.1) (2022-09-28)
 
 
