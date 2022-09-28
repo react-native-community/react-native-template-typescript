@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/kairyomeshi/react-native-template/compare/v1.0.0...v1.0.1) (2022-09-28)
+
+
+### Bug Fixes
+
+* update to @types/react-native@0.70.4 ([418e562](https://github.com/kairyomeshi/react-native-template/commit/418e5621c37ba4c4994679762953842443c76adf))
+
 ## 1.0.0 (2022-09-26)
 
 
