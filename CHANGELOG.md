@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/kairyomeshi/react-native-template/compare/v1.1.0...v1.2.0) (2022-10-05)
+
+
+### Features
+
+* add .vscode ([15f93fd](https://github.com/kairyomeshi/react-native-template/commit/15f93fdf238754ff3b12c0379f12fc2ce2e9eec4))
+
 ## [1.1.0](https://github.com/kairyomeshi/react-native-template/compare/v1.0.2...v1.1.0) (2022-10-04)
 
 
