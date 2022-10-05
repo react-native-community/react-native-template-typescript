@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.1](https://github.com/kairyomeshi/react-native-template/compare/v1.2.0...v1.2.1) (2022-10-05)
+
+
+### Bug Fixes
+
+* replace .vscode ([7b3853b](https://github.com/kairyomeshi/react-native-template/commit/7b3853b727baf9be6e193e7320ba74c6b58bb92b))
+* update .gitignore ([669c8b7](https://github.com/kairyomeshi/react-native-template/commit/669c8b708d013c7dc1137f228dc57bc5633e691d))
+
 ## [1.2.0](https://github.com/kairyomeshi/react-native-template/compare/v1.1.0...v1.2.0) (2022-10-05)
 
 
