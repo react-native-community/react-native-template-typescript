@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.5.0](https://github.com/kairyomeshi/react-native-template/compare/v1.4.0...v1.5.0) (2022-10-29)
+
+
+### Features
+
+* update to devDependencies ([aacab13](https://github.com/kairyomeshi/react-native-template/commit/aacab13ca8f5c7697ab7910bfba8ad1f93568591))
+
+
+### Bug Fixes
+
+* ios/project.pbxproj ([002cb63](https://github.com/kairyomeshi/react-native-template/commit/002cb635341f7da6de38641194fbaabb565734e3))
+
 ## [1.4.0](https://github.com/kairyomeshi/react-native-template/compare/v1.3.0...v1.4.0) (2022-10-26)
 
 
