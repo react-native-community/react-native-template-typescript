@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.5.1](https://github.com/kairyomeshi/react-native-template/compare/v1.5.0...v1.5.1) (2022-11-04)
+
+
+### Bug Fixes
+
+* App.tsx ([402954a](https://github.com/kairyomeshi/react-native-template/commit/402954a87f8dace3cbc2c8cf5926d3a5e33c7325))
+* App.tsx ([0cf2ab3](https://github.com/kairyomeshi/react-native-template/commit/0cf2ab3f01dc31adace4e50d161f313b42d7c66d))
+* fixed github workflows ([400a602](https://github.com/kairyomeshi/react-native-template/commit/400a602eda6252b97b1ac1062f477300718bc10e))
+* fixed types ([acfebc1](https://github.com/kairyomeshi/react-native-template/commit/acfebc1081aa537013eb710a17a03c60e7bfb2f4))
+
 ## [1.5.0](https://github.com/kairyomeshi/react-native-template/compare/v1.4.0...v1.5.0) (2022-10-29)
 
 
