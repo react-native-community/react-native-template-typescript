@@ -8,7 +8,7 @@
  * @format
  */
 
-import React, {type PropsWithChildren} from 'react';
+import React, {type FC, type PropsWithChildren} from 'react';
 import {
   SafeAreaView,
   ScrollView,
@@ -27,7 +27,7 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
-const Section: React.FC<
+const Section: FC<
   PropsWithChildren<{
     title: string;
   }>
@@ -57,7 +57,7 @@ const Section: React.FC<
   );
 };
 
-const App = () => {
+const App: FC = () => {
   const isDarkMode = useColorScheme() === 'dark';
 
   const backgroundStyle = {
