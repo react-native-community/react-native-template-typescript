@@ -8,7 +8,7 @@
  * @format
  */
 
-import React, {type FC,type PropsWithChildren} from 'react';
+import React, {type FC, type PropsWithChildren} from 'react';
 import {
   SafeAreaView,
   ScrollView,
