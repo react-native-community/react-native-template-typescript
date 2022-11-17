@@ -1,6 +1,6 @@
 {
   "name": "@kairyomeshi/react-native-template",
-  "version": "1.6.0",
+  "version": "1.7.0",
   "description": "Clean and minimalist React Native template for a quick start.",
   "scripts": {
     "test": "exit 0"
