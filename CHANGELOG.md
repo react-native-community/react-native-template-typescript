@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.7.0](https://github.com/kairyomeshi/react-native-template/compare/v1.6.0...v1.7.0) (2022-11-17)
+
+
+### Features
+
+* update to [@typescript-eslint](https://github.com/typescript-eslint) 5.43.0 ([7960733](https://github.com/kairyomeshi/react-native-template/commit/79607330795385c73a39feea452f43431b377899))
+* update to react-native 0.70.6 ([db2b1f4](https://github.com/kairyomeshi/react-native-template/commit/db2b1f48f4b1b45e7a2042d51bf8d6eb29d7f3fa))
+
 ## [1.6.0](https://github.com/kairyomeshi/react-native-template/compare/v1.5.1...v1.6.0) (2022-11-08)
 
 
