@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.7.1](https://github.com/kairyomeshi/react-native-template/compare/v1.7.0...v1.7.1) (2022-11-24)
+
+
+### Bug Fixes
+
+* update to @types/react-native 0.70.7 ([e74cea1](https://github.com/kairyomeshi/react-native-template/commit/e74cea151f071c1e40b78282b9b650af8f8468ee))
+* update to typescript 4.9.3 ([2419ea0](https://github.com/kairyomeshi/react-native-template/commit/2419ea076229ede55803c8f510686a96a56b30fa))
+
 ## [1.7.0](https://github.com/kairyomeshi/react-native-template/compare/v1.6.0...v1.7.0) (2022-11-17)
 
 
