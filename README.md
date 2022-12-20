@@ -30,10 +30,10 @@ npx react-native init MyApp --template @kairyomeshi/react-native-template
 
 ### Usage with older versions of React Native
 
-#### e.g. `react-native@0.69.x`
+#### e.g. `react-native@0.70.x`
 
 ```sh
-npx react-native init MyApp --template @kairyomeshi/react-native-template@1.0.0
+npx react-native init MyApp --template @kairyomeshi/react-native-template@1.7.1
 ```
 
 See the below table to find out which version of the template to use.
@@ -42,6 +42,7 @@ See the below table to find out which version of the template to use.
 
 | React Native | Template |
 | ------------ | -------- |
+| 0.71         | 2.0.\*  |
 | 0.70         | 1.0.\*  |
 
 ## :warning: React Native CLI
