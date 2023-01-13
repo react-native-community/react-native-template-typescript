@@ -1,5 +1,25 @@
 # Changelog
 
+## [2.0.0](https://github.com/kairyomeshi/react-native-template/compare/v1.7.1...v2.0.0) (2023-01-13)
+
+
+### ⚠ BREAKING CHANGES
+
+* fix README.md
+
+### Features
+
+* update to react-native 0.71.0 ([974c7f3](https://github.com/kairyomeshi/react-native-template/commit/974c7f3fa0ee0e239ea866b9cd6963ba09727b14))
+* update to react-native 0.71.0-rc.3 ([a08f549](https://github.com/kairyomeshi/react-native-template/commit/a08f549b6bd135c89b2df85037125b77228c727d))
+* update to react-native 0.71.0-rc.4 ([51a7d7a](https://github.com/kairyomeshi/react-native-template/commit/51a7d7a31c37fffb9a2751dbc78a9d860b59012e))
+* update to react-native 0.71.0-rc.5 ([2a89114](https://github.com/kairyomeshi/react-native-template/commit/2a89114ed4172ab3dcea92a98014e458b2b0b6c3))
+* update to react-native 0.71.0-rc.6 ([ca7895e](https://github.com/kairyomeshi/react-native-template/commit/ca7895ec5a0b1f135e048e98b6795a6a5d65c610))
+
+
+### Bug Fixes
+
+* fix README.md ([964f91b](https://github.com/kairyomeshi/react-native-template/commit/964f91b6948686e6962431c623a63ef00ebc25ae))
+
 ## [1.7.1](https://github.com/kairyomeshi/react-native-template/compare/v1.7.0...v1.7.1) (2022-11-24)
 
 
