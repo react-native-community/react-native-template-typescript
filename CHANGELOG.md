@@ -1,5 +1,14 @@
 # Changelog
 
+## [2.2.1](https://github.com/kairyomeshi/react-native-template/compare/v2.2.0...v2.2.1) (2023-02-10)
+
+
+### Bug Fixes
+
+* add @types/react-native previously removed ([351584b](https://github.com/kairyomeshi/react-native-template/commit/351584b94e1cb100ee06ea47830fa1945e9ad9d7))
+* Adjust templates and differences in react-native repository ([336e7e9](https://github.com/kairyomeshi/react-native-template/commit/336e7e9ea3ac6bb5674e27cb88c28600c139b5db))
+* update ./vscode/extensions.json ([86a2577](https://github.com/kairyomeshi/react-native-template/commit/86a25771e365f4353dd748ebf568c221797f5d1f))
+
 ## [2.2.0](https://github.com/kairyomeshi/react-native-template/compare/v2.1.0...v2.2.0) (2023-02-04)
 
 
