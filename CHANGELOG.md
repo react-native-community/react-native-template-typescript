@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.6.0](https://github.com/kairyomeshi/react-native-template/compare/v2.5.0...v2.6.0) (2023-04-04)
+
+
+### Features
+
+* update to react-native v0.71.6 ([525327e](https://github.com/kairyomeshi/react-native-template/commit/525327eba08a6ed9f2dfc9d161a38076e8bb8fed))
+
 ## [2.5.0](https://github.com/kairyomeshi/react-native-template/compare/v2.4.0...v2.5.0) (2023-04-01)
 
 
