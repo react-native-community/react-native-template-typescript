@@ -1,5 +1,17 @@
 # Changelog
 
+## [2.7.0](https://github.com/kairyomeshi/react-native-template/compare/v2.6.0...v2.7.0) (2023-04-11)
+
+
+### Features
+
+* supported path alias ([2fc2dff](https://github.com/kairyomeshi/react-native-template/commit/2fc2dff1d9e9e482c21c6396cb1f1fe93e16e065))
+
+
+### Bug Fixes
+
+* fix tsconfig.json ([47ca37c](https://github.com/kairyomeshi/react-native-template/commit/47ca37cd5372608812741c64e32025c3c7de8dc3))
+
 ## [2.6.0](https://github.com/kairyomeshi/react-native-template/compare/v2.5.0...v2.6.0) (2023-04-04)
 
 
